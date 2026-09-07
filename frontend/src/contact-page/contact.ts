@@ -3,11 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { navBar } from '../nav-bar/nav-bar';
 
 @Component({
-  imports: [RouterOutlet, navBar], 
-  selector: 'app-root',
-  styleUrl: './app.css',
-  templateUrl: './app.html',
+  imports: [RouterOutlet, navBar],
+  selector: 'contact-page',
+  styleUrl: './contact.css',
+  templateUrl: './contact.html',
 })
-export class App {
+export class contact {
   protected readonly title = signal('frontend');
 }
