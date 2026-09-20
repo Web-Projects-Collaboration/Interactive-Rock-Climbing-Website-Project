@@ -15,6 +15,9 @@ export class navBar {
   navigateToContact () {
     this.router.navigate(["/contact-page"]);
   };
+  navigateToProfile () {
+    this.router.navigate(["/user-profile"]);
+  };
   navigateToLandingPage() {
     this.router.navigate(["/"]);
   }

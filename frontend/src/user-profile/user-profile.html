@@ -1,0 +1,8 @@
+@if (!userLoggedIn) {
+    <form [formGroup]="profileForm" (ngSubmit)="createUserProfile()">
+        <input type="text" formControlName="username">
+        <input type="text" formControlName="password">
+        <input type="email" formControlName="email">
+        <input type="submit" [disabled]="!profileForm.valid">
+    </form>
+}
