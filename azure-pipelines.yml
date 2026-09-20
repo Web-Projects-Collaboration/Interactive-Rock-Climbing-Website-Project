@@ -21,3 +21,4 @@ steps:
     ng build
   workingDirectory: 'frontend'
   displayName: 'npm install and build'
+
